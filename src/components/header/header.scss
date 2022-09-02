@@ -1,5 +1,6 @@
 @import "../../styles/color.scss";
 
+
 $header-tag-width: 120px;
 $header-wrap-width: $header-tag-width * 5;
 $header-border-width: 30px;
@@ -52,7 +53,7 @@ header {
   height: 90px;
   background: no-repeat center;
   background-size: 24%;
-  background-image: url("https://raw.githubusercontent.com/Muxi-Studio/muxi_site_index/site/static/image/logo.png");
+  background-image: url("static/image/logo.png");
   &:before {
     position: absolute;
     top: 0px;

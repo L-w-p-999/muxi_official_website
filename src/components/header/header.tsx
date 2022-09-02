@@ -33,9 +33,8 @@ const Header:React.FC = ()=> {
     }];
     
     const [header,setHeader]=useState(origin_header)
-    const [order,setOrder]=useState(0)
+    const [order,setOrder]=useState(-1)
     useEffect(()=>{
-        "use strict"
         var route = window.location.pathname;
         var active = header.find(item =>{
 			return item.route === route;
@@ -45,18 +44,11 @@ const Header:React.FC = ()=> {
         }
         //对象可能为“未定义”报错————这里取消了严格模式
         if(active.style === 'header-primary'){
-			active.style += ' header-active'
+            var index = header.indexOf(active)
+            header[index].style += " header-active"
+            setOrder(index)
 		}
     },[])
-
-    const handleClick = (i: React.SetStateAction<number>)=>{
-        const order = i
-        setOrder(order)
-        console.log(i);
-        
-        console.log(order);
-        
-    }
 
     return (
         <header>

@@ -5,6 +5,7 @@ export default function Join() {
 
     function handleJoin() {
         alert("请加 QQ 群 763615354 咨询");
+        window.location
     }
   return (
     <div>
