@@ -8,7 +8,7 @@ interface childProps{
 
 const Card:React.FC<childProps>= (props)=>{
     const [isError,setIsError]=useState(true);
-    const defaultImg = 'https://static.muxixyz.com/workbench/avatar/14.png';
+    const defaultImg = 'http://static.muxixyz.com/workbench/avatar/14.png';
     //// 只调用一次onError 防止默认图加载不出来导致死循环
     const handleImageError = (e: { target: { src: string; }; })=>{
         if(isError){

@@ -29,7 +29,7 @@ const Banner:React.FC = ()=>{
 
     let width = countPage * 100 + "%";
     //生成0到countPage-1的数组
-    var indexArray = Array.from(
+    let indexArray = Array.from(
       new Array(countPage),
       (val, index) => index
     );

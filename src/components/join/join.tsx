@@ -12,14 +12,14 @@ export default function Join() {
         <div className="join-web">
           <div className="background-img">
             <img
-              src="https://static.muxixyz.com/index_site/join2.png"
+              src="http://static.muxixyz.com/index_site/join2.png"
               className="background-star"
             />
           </div>
 
           <div className="background-button">
             <img
-              src="https://static.muxixyz.com/index_site/join_button.png"
+              src="http://static.muxixyz.com/index_site/join_button.png"
               className="background-button-inner"
               onClick={()=>handleJoin()}
             />

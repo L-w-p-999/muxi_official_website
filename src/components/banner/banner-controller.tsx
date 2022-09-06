@@ -19,7 +19,7 @@ const BannerController:React.FC<childProps>=(props)=>{
     //const [flag,setFlag]=useState('left');
 
     useEffect(()=>{
-      var items = [];
+      let items = [];
         config.forEach(e=>{
             items.push(e.product);
         });
@@ -37,8 +37,8 @@ const BannerController:React.FC<childProps>=(props)=>{
         choose(i);
     }
     
-    var class1 = "products-item products-center";
-    var class2 = "products-item";
+    let class1 = "products-item products-center";
+    let class2 = "products-item";
 
     return (
         <div className="products-bottom">
