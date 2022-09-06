@@ -36,7 +36,7 @@ const Header:React.FC = ()=> {
     const [order,setOrder]=useState(-1)
     useEffect(()=>{
         let route = window.location.pathname;
-        let active = header.find(item =>{
+        let active = header.find((item: { route: string; }) =>{
 			return item.route === route;
 		});
         if(!active){

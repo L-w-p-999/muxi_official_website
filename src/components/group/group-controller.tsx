@@ -11,9 +11,7 @@ function GroupController(props: any) {
 		setCurrent(e);
 	};
 
-	var class1:string = "group-item group-on"
-	var class2:string = "group-item"
-	var rotate: number = 72 * (current + 1);
+	let rotate: number = 72 * (current + 1);
 	if (rotate > 180) {
 		rotate = rotate - 360 
 	} else {

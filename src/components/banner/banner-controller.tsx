@@ -19,8 +19,8 @@ const BannerController:React.FC<childProps>=(props)=>{
     //const [flag,setFlag]=useState('left');
 
     useEffect(()=>{
-      let items = [];
-        config.forEach(e=>{
+      let items:any = [];
+        config.forEach((e: { product: any; })=>{
             items.push(e.product);
         });
         //原代码this.setState({ items })  对hooks——访问useEffect里面的变量需要用到useState
@@ -33,7 +33,7 @@ const BannerController:React.FC<childProps>=(props)=>{
     const switchRight = ()=>{
         update(1);
     }
-    const chooseProduct = i => {
+    const chooseProduct = (i:any) => {
         choose(i);
     }
     
@@ -59,7 +59,7 @@ const BannerController:React.FC<childProps>=(props)=>{
             > 
               {items?.map((item:string, i:number) => (
                 <div key={i}
-                  className={`${props.current === i ? class1 : class2}`}
+                  className={`${current === i ? class1 : class2}`}
                   onClick={chooseProduct.bind(this, i)}  //this.chooseProduct.bind(this, i)原来的
                 >
                   {item}

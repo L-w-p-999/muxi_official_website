@@ -9,7 +9,7 @@ const Banner:React.FC = ()=>{
     const [currentPage,setCurrentPage]=useState(0);
     const [icon,setIcon]=useState(config[0].icon);
 
-    const updateItem = e =>{
+    const updateItem = (e:any) =>{
         if(
             !(
                 (currentPage <= 0 && e == -1) ||
@@ -22,7 +22,7 @@ const Banner:React.FC = ()=>{
         }
     }
 
-    const chooseBanner = index => {
+    const chooseBanner = (index:any) => {
         setCurrentPage(index);
         setIcon(config[currentPage].icon);
     }

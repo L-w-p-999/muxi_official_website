@@ -6,11 +6,11 @@ interface childProps{
     info:{position:string;intro:string;name:string;photo:string}
 }
 
-const Card:React.FC<childProps>= (props)=>{
+const Card:React.FC<childProps>= (props: { info: { position: string; photo: any; name: any; intro: any; }; tag: any; })=>{
     const [isError,setIsError]=useState(true);
     const defaultImg = 'http://static.muxixyz.com/workbench/avatar/14.png';
     //// 只调用一次onError 防止默认图加载不出来导致死循环
-    const handleImageError = (e: { target: { src: string; }; })=>{
+    const handleImageError = (e:any)=>{
         if(isError){
             setIsError(false);
             e.target.src=defaultImg;
@@ -32,7 +32,7 @@ const Card:React.FC<childProps>= (props)=>{
           <div className="intro-photo">
             <img
               src={props.info.photo}
-              ref={img => {
+              ref={(img: any) => {
                 img = img;
               }}
               onError={handleImageError}

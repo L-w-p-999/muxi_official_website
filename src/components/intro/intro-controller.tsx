@@ -7,7 +7,7 @@ interface childProps{
     select:Function;
 }
 
-const Introgroup:React.FC<childProps> = (props)=>{
+const Introgroup:React.FC<childProps> = (props:any)=>{
     const information = info;
     const [current,setCurrent]=useState(props.current);
 
