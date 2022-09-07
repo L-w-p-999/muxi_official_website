@@ -5,25 +5,25 @@ const info = [
         {
           position: "二代目 组长",
           name: "刘聪",
-          photo: "https://static.muxixyz.com/muxisite/avartar/lc.png",
+          photo: "http://static.muxixyz.com/muxisite/avartar/lc.png",
           intro: "今天不接任何需求= ="
         },
         {
           position: "首席教育官",
           name: "余依蕾",
-          photo: "https://static.muxixyz.com/muxisite/avartar/yyl.jpeg",
+          photo: "http://static.muxixyz.com/muxisite/avartar/yyl.jpeg",
           intro: "介绍加载失败..."
         },
         {
           position: "三代目 组长 主管",
           name: "张可",
-          photo: "https://static.muxixyz.com/muxisite/avartar/zk.jpeg",
+          photo: "http://static.muxixyz.com/muxisite/avartar/zk.jpeg",
           intro: "DON'T PANIC"
         },
         {
           position: "组员",
           name: "区诗柔",
-          photo: "https://static.muxixyz.com/muxisite/avartar/osr.jpeg",
+          photo: "http://static.muxixyz.com/muxisite/avartar/osr.jpeg",
           intro: "华南食人族"
         },
   
@@ -36,7 +36,7 @@ const info = [
         {
           position: "组员",
           name: "梁秋实",
-          photo: "https://static.muxixyz.com/muxisite/avartar/lqs.jpeg",
+          photo: "http://static.muxixyz.com/muxisite/avartar/lqs.jpeg",
           intro: "Carpe diem."
         },
         {
@@ -82,7 +82,7 @@ const info = [
           intro: "这个人没有留下任何简介~~~"
         },
         {
-          position: "组员",
+          position: "六代目 组长",
           name: "张竣淇",
           photo: "http://muxisite-avater.muxixyz.com//backend/zhangjunqi.jpg",
           intro: "给阿姨倒一杯卡布奇诺"
@@ -120,17 +120,17 @@ const info = [
         {
           position: "组员",
           name: "胡翔瑞",
-          photo: "https://static.muxixyz.com/workbench/avatar/14.png",
+          photo: "http://static.muxixyz.com/workbench/avatar/14.png",
           intro: "后端组，数字媒体技术专业"
         },
         {
-          position: "组长",
+          position: "七代目 组长",
           name: "梁师滔",
           photo: "http://ossworkbench.muxixyz.com/1606115265.462684.1606115143580.png",
           intro: "Go Go Go"
         },
         {
-          position: "2020级主管",
+          position: "七代目 主管",
           name: "李劲哲",
           photo: "http://ossworkbench.muxixyz.com/1626186028.1289434.-11598051e23ef040.jpg",
           intro: "我真的不会再摆烂了"
@@ -144,7 +144,7 @@ const info = [
         {
           position: "组员",
           name: "龚娜",
-          photo: "https://static.muxixyz.com/workbench/avatar/2.png",
+          photo: "http://static.muxixyz.com/workbench/avatar/2.png",
           intro: "无"
         },
         {
@@ -168,7 +168,7 @@ const info = [
         {
           position: "组员",
           name: "易英杰",
-          photo: "https://static.muxixyz.com/workbench/avatar/1.png",
+          photo: "http://static.muxixyz.com/workbench/avatar/1.png",
           intro: "普通的菜狗"
         },
         {
@@ -297,7 +297,7 @@ const info = [
           intro: "心有猛虎，细嗅蔷薇"
         },
         {
-          position: "组员",
+          position: "六代目 组长 主管",
           name: "韩晨龙",
           photo: "http://muxisite-avater.muxixyz.com//frontend/hanchenlong.jpg",
           intro: "win🐰"
@@ -321,7 +321,7 @@ const info = [
           intro: "Nothing is impossible. 喜欢就去做吧。"
         },
         {
-          position: "组长",
+          position: "七代目 组长",
           name: "刘宇乐",
           photo: "http://ossworkbench.muxixyz.com/1648692265.5580018.d959b5bbeba7a68bbde0796b880a9f388bc727da.jpg160w_160h_1c_1s.webp",
           intro: "劳动最光荣"
@@ -353,7 +353,7 @@ const info = [
         {
           position: "组员",
           name: "王淑英",
-          photo: "https://static.muxixyz.com/workbench/avatar/12.png",
+          photo: "http://static.muxixyz.com/workbench/avatar/12.png",
           intro: "无"
         },
         {
@@ -447,7 +447,7 @@ const info = [
           photo: "http://muxisite-avater.muxixyz.com//design/gongyueying.png"
         },
         {
-          position: "组长",
+          position: "四代目 组长",
           name: "吴彬",
           photo: "http://muxisite-avater.muxixyz.com//design/wubing.png",
           intro: "这个人很懒，这里什么都没有"
@@ -483,7 +483,7 @@ const info = [
           intro: "每天都要开心的小龙"
         },
         {
-          position: "组长",
+          position: "五代目 组长",
           name: "谭航",
           photo: "http://muxisite-avater.muxixyz.com//design/tanhang.png",
           intro: "呜啦啦啦火车笛，随着奔腾的马蹄~"
@@ -507,7 +507,7 @@ const info = [
           intro: "努力不鸽"
         },
         {
-          position: "组员",
+          position: "六代目 组长",
           name: "戴纤萍",
           photo: "http://muxisite-avater.muxixyz.com//design/daixianping.png",
           intro: "好好向上天天学习"
@@ -549,7 +549,7 @@ const info = [
           intro: "叉出去"
         },
         {
-          position: "组长",
+          position: "七代目 组长",
           name: "全正",
           intro: "不会画画的屑设计",
           photo: "http://ossworkbench.muxixyz.com/1635301043.4406018.jpg"
@@ -564,19 +564,19 @@ const info = [
           position: "组员",
           name: "莫程泽",
           intro: "设计小白，求各位大佬带飞¦•'-'•)و✧",
-          photo: "https://static.muxixyz.com/workbench/avatar/4.png"
+          photo: "http://static.muxixyz.com/workbench/avatar/4.png"
         },
         {
           position: "组员",
           name: "袁昕怡",
           intro: "你好",
-          photo: "https://static.muxixyz.com/workbench/avatar/5.png"
+          photo: "http://static.muxixyz.com/workbench/avatar/5.png"
         },
         {
           position: "组员",
           name: "刘晨萱",
           intro: "要问我喜欢什么，喜欢人少的地方。",
-          photo: "https://static.muxixyz.com/workbench/avatar/9.png"
+          photo: "http://static.muxixyz.com/workbench/avatar/9.png"
         }
       ]
     },
@@ -598,7 +598,7 @@ const info = [
         {
           position: "组员",
           name: "查思羽",
-          photo: "http://muxisite-avater.muxixyz.com/product/zhasiyu.jpg",
+          photo: "http://static.muxixyz.com/workbench/avatar/3.png",
           intro: "刚好学习不食人间烟火"
         },
         {
@@ -620,13 +620,13 @@ const info = [
           intro: "Just be happy."
         },
         {
-          position: "四代目 主管",
+          position: "五代目 主管",
           name: "赵思捷",
           photo: "http://muxisite-avater.muxixyz.com//product/zhaosijie.jpg",
           intro: "不想学技术的产品不是好咸鱼。"
         },
         {
-          position: "组长",
+          position: "四代目 组长",
           name: "褚宇飞",
           photo: "http://muxisite-avater.muxixyz.com//product/chuyufei.jpg",
           intro: "喜欢打篮球的沙雕"
@@ -650,7 +650,7 @@ const info = [
           intro: "骄傲且顽固的小孟"
         },
         {
-          position: "组员",
+          position: "五代目 组长",
           name: "孙奥",
           photo: "http://muxisite-avater.muxixyz.com//product/sunao.jpg",
           intro: "绞尽脑汁，原地爆炸"
@@ -680,15 +680,15 @@ const info = [
           intro: "白敬亭八抬大轿的夫人"
         },
         {
-          position: "组长",
+          position: "六代目 组长",
           name: "程文璇",
-          photo: "https://static.muxixyz.com/workbench/avatar/6.png",
+          photo: "http://static.muxixyz.com/workbench/avatar/6.png",
           intro: "完成好过完美"
         },
         {
           position: "组员",
           name: "王家珺",
-          photo: "https://static.muxixyz.com/workbench/avatar/3.png",
+          photo: "http://static.muxixyz.com/workbench/avatar/3.png",
           intro: "此人来过"
         },
         {
@@ -700,7 +700,7 @@ const info = [
         {
           position: "组员",
           name: "骆紫盈",
-          photo: "https://static.muxixyz.com/workbench/avatar/12.png",
+          photo: "http://static.muxixyz.com/workbench/avatar/12.png",
           intro: "多思考，多扩展自我边界。"
         },
         {
@@ -739,13 +739,13 @@ const info = [
           intro: "Android Developer"
         },
         {
-          position: "卫生部长 组长",
+          position: "二代目 组长",
           name: "底衫不二",
-          photo: "https://static.muxixyz.com/muxisite/avartar/xy.jpeg",
+          photo: "http://static.muxixyz.com/muxisite/avartar/xy.jpeg",
           intro: "我已经决定吃自己喜欢的东西,过短命的人生了"
         },
         {
-          position: "组长",
+          position: "三代目 组长",
           name: "石泽远",
           photo: "http://muxisite-avater.muxixyz.com//android/shizeyuan.jpg",
           intro: "YOU ARE NOT BRAVE, MAN ARE BRAVE"
@@ -757,7 +757,7 @@ const info = [
           intro: "这个人很懒，还没有自己的简介哦～"
         },
         {
-          position: "组长",
+          position: "四代目 组长",
           name: "赵弟发",
           photo: "http://muxisite-avater.muxixyz.com//android/zhaodifa.png",
           intro: "I am a slow walker , but i never walk backwards ."
@@ -775,7 +775,7 @@ const info = [
           intro: "我是要励志成为编程界的梅西的男人"
         },
         {
-          position: "组长",
+          position: "五代目 组长",
           name: "钟伊凡",
           photo: "http://muxisite-avater.muxixyz.com//android/zhongyifan.jpg",
           intro: "敲代码慢半拍的怪咖"
@@ -793,7 +793,7 @@ const info = [
           intro: "糊涂世界明白人"
         },
         {
-          position: "组员",
+          position: "六代目 组长",
           name: "蔡加明",
           photo: "http://muxisite-avater.muxixyz.com//android/caijiaming.jpg",
           intro: "国际知名退堂鼓鼓手"
@@ -811,9 +811,9 @@ const info = [
           intro: "但行好事，莫问前程"
         },
         {
-          position: "组长",
+          position: "七代目 组长",
           name: "邓策渝",
-          photo: "https://static.muxixyz.com/workbench/avatar/6.png",
+          photo: "http://static.muxixyz.com/workbench/avatar/6.png",
           intro: "安卓冲鸭!"
         },
         {
@@ -849,7 +849,7 @@ const info = [
         {
           position: "组员",
           name: "操辉生",
-          photo: "https://static.muxixyz.com/workbench/avatar/3.png",
+          photo: "http://static.muxixyz.com/workbench/avatar/3.png",
           intro: "人间骄阳正好，风过林梢，彼时他们正当年少。"
         },
         {
