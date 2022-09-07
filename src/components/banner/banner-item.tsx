@@ -19,7 +19,7 @@ const BannerItem:React.FC<childProps> = (props)=>{
     //const [icon,setIcon]=useState(config[props.key].icon);
 
     const _link=()=>{
-        window.location = href;
+        window.location.href = href;
     }
 
     useEffect(()=>{
