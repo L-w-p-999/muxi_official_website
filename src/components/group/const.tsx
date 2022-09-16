@@ -7,7 +7,7 @@ interface Group {
 }
 const group: Array<Group> = [
   {
-    name: "后台",
+    name: "后端",
     intro:
       "实现 Web 应用的后端服务，负责后端开发，服务器运维，保证木犀产品的长治久安。",
     learn: "Go, SQL, Docker, Kubernetes…",
