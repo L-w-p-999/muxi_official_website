@@ -297,6 +297,12 @@ const info = [
           intro: "心有猛虎，细嗅蔷薇"
         },
         {
+          position: "组员",
+          name: "苏亚鹏",
+          photo: "http://ossworkbench.muxixyz.com/1618965024.3584971.srchttp___c-ssl.duitang.com_uploads_item_202004_16_20200416225709_hlldb.thumb.400_0.jpgreferhttp___c-ssl.duitang.jpeg",
+          intro: "无"
+        },
+        {
           position: "六代目 组长 主管",
           name: "韩晨龙",
           photo: "http://muxisite-avater.muxixyz.com//frontend/hanchenlong.jpg",
