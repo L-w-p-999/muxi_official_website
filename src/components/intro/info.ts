@@ -862,7 +862,7 @@ const info = [
           position: "组员",
           name: "钟宇",
           photo: "http://ossworkbench.muxixyz.com/1633969486.2371376.olhjhwwtw4c7llf67mu6o652.jpg",
-          intro: "（无）"
+          intro: "值得有所期待！"
         },
         {
           position: "组员",
