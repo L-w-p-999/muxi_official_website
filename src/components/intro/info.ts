@@ -144,7 +144,7 @@ const info = [
         {
           position: "组员",
           name: "龚娜",
-          photo: "http://static.muxixyz.com/workbench/avatar/2.png",
+          photo: "http://muxisite-avater.muxixyz.com/gn_avatar.png",
           intro: "无"
         },
         {
