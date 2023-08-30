@@ -7,6 +7,11 @@ import routes from './routes'
 
 
 function App() {
+  // 检测是否为移动设备
+    if (/Mobi|Android/i.test(navigator.userAgent)) {
+      // 执行移动设备重定向
+      window.location.href = 'http://m.muxi-tech.xyz';
+    }
   const element = useRoutes(routes)
   return (
     <div className="App">
