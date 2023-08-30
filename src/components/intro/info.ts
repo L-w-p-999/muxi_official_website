@@ -184,11 +184,53 @@ const info = [
           intro: "人可以被毁灭，但不能被打败"
         },
         {
-          position: "组员",
+          position: "八代目 组长 主管",
           name: "吴宇贤",
           photo: "http://ossworkbench.muxixyz.com/1642602521.2263212.AC034787AB1B508D8520B6F3EDDD7088.jpg",
           intro: "YOLO"
-        }
+        },
+        {
+          position: "组员",
+          name: "杨希山",
+          photo: "http://ossworkbench.muxixyz.com/1667271723.9067113.2022-11-01_11-01-51.png",
+          intro: "脱离了高级趣味的人"
+        },
+        {
+          position:"组员",
+          name:"孙艺桓",
+          photo:"http://ossworkbench.muxixyz.com/1677071906.3237529.641.jpg",
+          intro:"我是后端茶倒水的鶸，好吃懒做不求上进的ddl战士。"
+        },
+        {
+          position:"组员",
+          name:"张耘硕",
+          photo:"http://ossworkbench.muxixyz.com/1665824560.4114592.24655716651404032.png",
+          intro:"你是？我是？他是？"
+        },
+        {
+          position:"组员",
+          name:"张书颇",
+          photo:"http://static.muxixyz.com/workbench/avatar/11.png",
+          intro:`｛"code": 418, "msg": "I'm a teapot"｝`
+        },
+        {
+          position:"组员",
+          name:"严展翔",
+          photo:"http://static.muxixyz.com/workbench/avatar/10.png",
+          intro:"写下err！=nil的人"
+        },
+        {
+          position:"组员",
+          name:"王严妍",
+          photo:"http://ossworkbench.muxixyz.com/1666084449.6859758.20221018171352.jpg",
+          intro:"去去重去去，来时是来时。"
+        },
+        {
+          position:"组员",
+          name:"王薇 ",
+          photo:"http://static.muxixyz.com/workbench/avatar/3.png ",
+          intro:"大白菜大学生。"
+        },
       ]
     },
     {
@@ -387,7 +429,7 @@ const info = [
           intro: "...CODING..."
         },
         {
-          position: "组员",
+          position: "八代目 组长",
           name: "郭琳琳",
           photo: "http://ossworkbench.muxixyz.com/1634136026.2697997.IMG_011120210811-162643.JPG",
           intro: "开心就好啊"
@@ -397,7 +439,31 @@ const info = [
           name: "吴宇佳",
           photo: "http://ossworkbench.muxixyz.com/1633952588.5333083.3.jpg",
           intro: "乐观的搞笑女"
-        }
+        },
+        {
+          position: "组员",
+          name: "苏芃子旸",
+          photo: "http://ossworkbench.muxixyz.com/1665395652.820678.25e4771b6d922863716ebb4091ffe645.jpg",
+          intro: `JS === "女子小学生"`
+        },
+        {
+          position: "组员",
+          name: "王能帅",
+          photo: "http://ossworkbench.muxixyz.com/1666092922.4968514.profile-pic.png ",
+          intro: "早睡早起"
+        },
+        {
+          position: "组员",
+          name: "米浩睿",
+          photo: "http://ossworkbench.muxixyz.com/1667871187.3702953.CBB50843-EE00-4200-A5FC-DBDF393C1BA4.jpeg",
+          intro: "不驰于空想，不骛于虚声"
+        },
+        {
+          position: "组员",
+          name: "刘恺卿",
+          photo: "http://ossworkbench.muxixyz.com/1665756357.33686.ef2800ff837f6d3b56d47364b1112062.jpg",
+          intro: "华师GGBond"
+        },
       ]
     },
     {
@@ -579,11 +645,53 @@ const info = [
           photo: "http://static.muxixyz.com/workbench/avatar/5.png"
         },
         {
-          position: "组员",
+          position: "八代目 组长",
           name: "刘晨萱",
           intro: "要问我喜欢什么，喜欢人少的地方。",
           photo: "http://static.muxixyz.com/workbench/avatar/9.png"
-        }
+        },
+        {
+          position: "组员",
+          name: "张琪",
+          intro: "目标是成为全栈——？！",
+          photo: "http://ossworkbench.muxixyz.com/1679245329.5890565.DB71F9512A79177FDF139F968632F78F.jpg"
+        },
+        {
+          position: "组员",
+          name: "叶晓芸",
+          intro: "二刺猿",
+          photo: "http://ossworkbench.muxixyz.com/1665375444.7576077.QQ20221010121703.jpg"
+        },
+        {
+          position: "组员",
+          name: "陈睿",
+          intro: "吃好喝好，长生不老",
+          photo: "http://ossworkbench.muxixyz.com/1665930326.42843.86257174-371D-46A7-86CD-4DFF7F165489.jpeg"
+        },
+        {
+          position: "组员",
+          name: "陈扶农",
+          intro: "woc，农！",
+          photo: "http://static.muxixyz.com/workbench/avatar/5.png"
+        },
+        {
+          position: "组员",
+          name: "来宇航",
+          intro: "好的，没问题，马上改",
+          photo: "http://ossworkbench.muxixyz.com/1665802252.3330014.png"
+        },
+        {
+          position: "组员",
+          name: "赵珂慧",
+          intro: "学弟学妹快来！让我啃啃！",
+          photo: "http://ossworkbench.muxixyz.com/1666185891.647377.20C450EB47F928BC68542118B3FC3F5E.png"
+        },
+        {
+          position: "组员",
+          name: "许蓝菁",
+          intro: "努力跟进前辈脚步的大学生",
+          photo: "http://static.muxixyz.com/workbench/avatar/13.png"
+        },
       ]
     },
     {
@@ -626,7 +734,7 @@ const info = [
           intro: "Just be happy."
         },
         {
-          position: "五代目 主管",
+          position: "五代目 主管 组长",
           name: "赵思捷",
           photo: "http://muxisite-avater.muxixyz.com//product/zhaosijie.jpg",
           intro: "不想学技术的产品不是好咸鱼。"
@@ -656,7 +764,7 @@ const info = [
           intro: "骄傲且顽固的小孟"
         },
         {
-          position: "五代目 组长",
+          position: "六代目 组长",
           name: "孙奥",
           photo: "http://muxisite-avater.muxixyz.com//product/sunao.jpg",
           intro: "绞尽脑汁，原地爆炸"
@@ -686,7 +794,7 @@ const info = [
           intro: "白敬亭八抬大轿的夫人"
         },
         {
-          position: "六代目 组长",
+          position: "七代目 组长",
           name: "程文璇",
           photo: "http://static.muxixyz.com/workbench/avatar/6.png",
           intro: "完成好过完美"
@@ -722,10 +830,40 @@ const info = [
           intro: "巴拉巴拉"
         },
         {
-          position: "组员",
+          position: "八代目 组长",
           name: "李忠桉",
           photo: "http://ossworkbench.muxixyz.com/1633877041.2810264.IMG_20210912_003750.jpg",
           intro: "试图将生活过得多姿多彩~(～￣▽￣)～"
+        },
+        {
+          position: "组员",
+          name: "张雅",
+          photo: "http://ossworkbench.muxixyz.com/1669470225.246666.365AAB60-BF4E-4A23-AF17-80D6C3E56F13.jpeg ",
+          intro: "偷得浮生半日闲"
+        },
+        {
+          position: "组员",
+          name: "张舒涵",
+          photo: "http://static.muxixyz.com/workbench/avatar/9.png",
+          intro: "尬聊小能手"
+        },
+        {
+          position: "组员",
+          name: "李曈曈",
+          photo: "http://ossworkbench.muxixyz.com/1673625460.0780535.QQ20230113235659.jpg",
+          intro: "我有一个绝妙的点子！需要过审核？呃，那没有了"
+        },
+        {
+          position: "组员",
+          name: "梁畅",
+          photo: "http://ossworkbench.muxixyz.com/1665289311.3582513.165A9FEA-E901-4053-946D-A67E1413DA56.jpeg",
+          intro: "隐藏野心 悄悄发光"
+        },
+        {
+          position: "组员",
+          name: "唐歆雅",
+          photo: "http://ossworkbench.muxixyz.com/1665883263.22128.DA3BA84B-EB2C-4C4A-A71E-47BAA3CEA9C9.jpeg",
+          intro: "脑洞全宇宙漂移"
         },
       ]
     },
@@ -859,7 +997,7 @@ const info = [
           intro: "人间骄阳正好，风过林梢，彼时他们正当年少。"
         },
         {
-          position: "组员",
+          position: "八代目 组长",
           name: "钟宇",
           photo: "http://ossworkbench.muxixyz.com/1633969486.2371376.olhjhwwtw4c7llf67mu6o652.jpg",
           intro: "无"
@@ -875,7 +1013,43 @@ const info = [
           name: "吕云志",
           photo: "http://ossworkbench.muxixyz.com/1636556548.195078.jpg",
           intro: "值得有所期待！"
-        }
+        },
+        {
+          position: "组员",
+          name: "吕洵",
+          photo: "http://ossworkbench.muxixyz.com/1666787333.0614903.20220908201159.jpg",
+          intro: "一键查询精神状态"
+        },
+        {
+          position: "组员",
+          name: "王祎博",
+          photo: "http://ossworkbench.muxixyz.com/1684942968.6471434.DM_20230524231009_001.jpg",
+          intro: "2022数字媒体技术"
+        },
+        {
+          position: "组员",
+          name: "林炜昊",
+          photo: "http://ossworkbench.muxixyz.com/1665441665.2291903.93048000.jpg ",
+          intro: "事安卓组，喜欢音游，兴趣加入此地XD"
+        },
+        {
+          position: "组员",
+          name: "陈敬文",
+          photo: "http://ossworkbench.muxixyz.com/1665928150.6903372.QQ20221004224608.png",
+          intro: "无"
+        },
+        {
+          position: "组员",
+          name: "李泽群",
+          photo: "http://ossworkbench.muxixyz.com/1665677678.1391776.srchttp___inews.gtimg.com_newsapp_bt_0_13895187735_1000referhttp___inews.gtimg.webp",
+          intro: "举世罕见的摆子"
+        },
+        {
+          position: "组员",
+          name: "周锦",
+          photo: "http://static.muxixyz.com/workbench/avatar/5.png",
+          intro: "摆烂人的摆烂自我介绍"
+        },
       ]
     }
   ];
