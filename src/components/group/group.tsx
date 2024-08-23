@@ -1,32 +1,37 @@
-import  { useState } from 'react'
-import './groupStyle.scss'
-import { CSSTransition } from "react-transition-group"
-import GroupItem from './group-item';
-import GroupController from './group-controller';
-import Flower from '../flower/flower';
-
-
+import { useState } from "react";
+import group from "./const";
+import { CSSTransition } from "react-transition-group";
+import GroupItem from "./group-item";
+import GroupController from "./group-controller";
+import Flower from "../flower/flower";
+import "./index.scss";
 
 function Group() {
-
-	const [store, setStore] = useState(0)
-	return (
-		<div className="wrapper">
-			<Flower />
-			{/* 之前GroupItem是被包裹在一个className='products-intro'组件中的，该组件的作用是为文字的切换增加淡出淡入效果 */}
-				<div className="products-intro">
-				<CSSTransition
-						in={true}//为true进入显示组件（主要通过in属性来控制组件状态）
-						classNames="card"//设置类名的前缀
-						timeout={1000}//设置过渡动画事件
-						unmountOnExit={true}//消失动画结束后 + display:none
-					>
-						<GroupItem data={store} />
-					</CSSTransition>
-				</div>
-			<GroupController select={setStore} current={store} />
-		</div>
-	)
+  const [store, setStore] = useState(0);
+  return (
+    <div className="wrapper">
+      <Flower />
+      <div className="group-content-box">
+        <div className="group-content">
+          <div className="group-left">
+            <div className="group-left-content">
+              <h1 className="group-name">{group[store].name}</h1>
+              <div className="group-intro">{group[store].intro}</div>
+              <br />
+              <div className="group-learn">
+                <p>学习技能:</p>
+                {group[store].learn}
+              </div>
+            </div>
+          </div>
+          <GroupController selectGroup={setStore} initGroup={store} />
+          <div className="group-right">
+            <img src={group[store].img} alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
-export default Group
+export default Group;
