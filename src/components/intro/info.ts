@@ -231,6 +231,36 @@ const info = [
           photo:"https://static.muxixyz.com/workbench/avatar/3.png ",
           intro:"大白菜大学生。"
         },
+        {
+          position:"组员",
+          name:"陈诚",
+          photo:"https://muxi-avatar.muxixyz.com/backend%3Achencheng.png",
+          intro:"学就对了"
+        },
+        {
+          position:"组员",
+          name:"姜高峰",
+          photo:"https://muxi-avatar.muxixyz.com/backend%3Ajianggaofeng.jpg",
+          intro:"Hello World"
+        },
+        {
+          position:"组员",
+          name:"梁雅栋",
+          photo:"https://muxi-avatar.muxixyz.com/backend%3Aliangyadong.jpg",
+          intro:"后端小透明，眼神清澈大学生"
+        },
+        {
+          position:"组员",
+          name:"刘镇东",
+          photo:"https://muxi-avatar.muxixyz.com/backend%3Aliuzhendong.jpg",
+          intro:"后端擦玻璃的"
+        },
+        {
+          position:"组员",
+          name:"孙俊楠",
+          photo:"https://muxi-avatar.muxixyz.com/backend%3Asunjunnan.jpg",
+          intro:"前端转前台，后端转后厨。我们都有光明的未来"
+        }
       ]
     },
     {
@@ -464,6 +494,30 @@ const info = [
           photo: "https://workbench-static.muxixyz.com/1665756357.33686.ef2800ff837f6d3b56d47364b1112062.jpg",
           intro: "华师GGBond"
         },
+        {
+          position: "组员",
+          name: "单禹嘉",
+          photo: "https://muxi-avatar.muxixyz.com/frontend%3Ashanyujia.jpg",
+          intro: "繁花似锦寻安宁 淡水流云渡此生"
+        },
+        {
+          position: "组员",
+          name: "夏雯斐",
+          photo: "https://muxi-avatar.muxixyz.com/frontend%3Axiaowenfei.jpg",
+          intro: "梦想成真！！"
+        },
+        {
+          position: "组员",
+          name: "邵鸶云",
+          photo: "https://muxi-avatar.muxixyz.com/frontend%3Ashaosiyun.jpg",
+          intro: "想法超多，执行为0.1的微死人"
+        },
+        {
+          position: "组员",
+          name: "张冰艳",
+          photo: "https://muxi-avatar.muxixyz.com/frontend%3Azhangbingyan.png",
+          intro: "每天睡前祈祷明天没有小组作业"
+        },
       ]
     },
     {
@@ -692,6 +746,54 @@ const info = [
           intro: "努力跟进前辈脚步的大学生",
           photo: "https://static.muxixyz.com/workbench/avatar/13.png"
         },
+        {
+          position: "组员",
+          name: "陈瑜伦",
+          intro: "一个沉默的郎，比较随心所欲",
+          photo: "https://muxi-avatar.muxixyz.com/design%3Achenyulun.jpg"
+        },
+        {
+          position: "组员",
+          name: "丁鼎峰",
+          intro: "我叫丁鼎峰，热爱UI设计",
+          photo: "https://muxi-avatar.muxixyz.com/design%3Adingdingfeng.jpg"
+        },
+        {
+          position: "组员",
+          name: "李畅龙",
+          intro: "喜欢排球的设计少年.....",
+          photo: "https://muxi-avatar.muxixyz.com/design%3Alichanglong.jpg"
+        },
+        {
+          position: "组员",
+          name: "刘翠蝶",
+          intro: "努力成为好设计ing～",
+          photo: "https://muxi-avatar.muxixyz.com/design%3Aliucuidie.jpg"
+        },
+        {
+          position: "组员",
+          name: "马丽敏",
+          intro: "better",
+          photo: "https://muxi-avatar.muxixyz.com/design%3Amalimin.jpg"
+        },
+        {
+          position: "组员",
+          name: "时丽静",
+          intro: "最好的状态是保持进步",
+          photo: "https://muxi-avatar.muxixyz.com/design%3Ashilijing.jpg"
+        },
+        {
+          position: "组员",
+          name: "余佳颖",
+          intro: "我来自数字媒体技术专业~",
+          photo: "https://muxi-avatar.muxixyz.com/design%3Ayujiaying.jpg"
+        },
+        {
+          position: "组员",
+          name: "赵宇轩",
+          intro: "正在努力向技术栈进发",
+          photo: "https://muxi-avatar.muxixyz.com/design%3Azhaoyuxuan.jpg"
+        },
       ]
     },
     {
@@ -864,6 +966,30 @@ const info = [
           name: "唐歆雅",
           photo: "https://workbench-static.muxixyz.com/1665883263.22128.DA3BA84B-EB2C-4C4A-A71E-47BAA3CEA9C9.jpeg",
           intro: "脑洞全宇宙漂移"
+        },
+        {
+          position: "组员",
+          name: "柏佳慧",
+          photo: "https://muxi-avatar.muxixyz.com/product%3Abaijiahui.jpg",
+          intro: "戏称“摸鱼开柏”（但是很少能摸到鱼…）。喜欢的格言是“人生即产品”。野心勃勃，奋发向上！"
+        },
+        {
+          position: "组员",
+          name: "池若萱",
+          photo: "https://muxi-avatar.muxixyz.com/product%3Achiruoxuan.jpg",
+          intro: "极限加班的产品"
+        },
+        {
+          position: "组员",
+          name: "翁伟恩",
+          photo: "https://muxi-avatar.muxixyz.com/product%3Awweien.jpg",
+          intro: "学习做出一款好产品"
+        },
+        {
+          position: "组员",
+          name: "许月红",
+          photo: "https://muxi-avatar.muxixyz.com/product%3Axuyuehong.jpg",
+          intro: "“幸福的生活，就是每天有事做，有人爱，有期待。”"
         },
       ]
     },
@@ -1049,6 +1175,24 @@ const info = [
           name: "周锦",
           photo: "https://static.muxixyz.com/workbench/avatar/5.png",
           intro: "摆烂人的摆烂自我介绍"
+        },
+        {
+          position: "组员",
+          name: "焦新亨",
+          photo: "https://muxi-avatar.muxixyz.com/android%3Ajiaoxinheng.png",
+          intro: "广告位招租嗷，别不识抬举嗷"
+        },
+        {
+          position: "组员",
+          name: "孔嘉乐",
+          photo: "https://muxi-avatar.muxixyz.com/android%3Akongjiale.png",
+          intro: "男的"
+        },
+        {
+          position: "组员",
+          name: "郑壹腾",
+          photo: "https://muxi-avatar.muxixyz.com/android%3Azhengyiteng.jpg",
+          intro: "安卓组成员"
         },
       ]
     }
