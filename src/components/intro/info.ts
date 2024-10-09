@@ -190,7 +190,7 @@ const info = [
           intro: "YOLO"
         },
         {
-          position: "组员",
+          position: "九代目 组长",
           name: "杨希山",
           photo: "https://workbench-static.muxixyz.com/1667271723.9067113.2022-11-01_11-01-51.png",
           intro: "脱离了高级趣味的人"
@@ -459,7 +459,7 @@ const info = [
           intro: "不驰于空想，不骛于虚声"
         },
         {
-          position: "组员",
+          position: "九代目 组长",
           name: "刘恺卿",
           photo: "https://workbench-static.muxixyz.com/1665756357.33686.ef2800ff837f6d3b56d47364b1112062.jpg",
           intro: "华师GGBond"
@@ -651,7 +651,7 @@ const info = [
           photo: "https://static.muxixyz.com/workbench/avatar/9.png"
         },
         {
-          position: "组员",
+          position: "九代目 组长",
           name: "张琪",
           intro: "目标是成为全栈——？！",
           photo: "https://workbench-static.muxixyz.com/1679245329.5890565.DB71F9512A79177FDF139F968632F78F.jpg"
@@ -836,7 +836,7 @@ const info = [
           intro: "试图将生活过得多姿多彩~(～￣▽￣)～"
         },
         {
-          position: "组员",
+          position: "九代目 组长",
           name: "张雅",
           photo: "https://workbench-static.muxixyz.com/1669470225.246666.365AAB60-BF4E-4A23-AF17-80D6C3E56F13.jpeg ",
           intro: "偷得浮生半日闲"
@@ -1015,7 +1015,7 @@ const info = [
           intro: "值得有所期待！"
         },
         {
-          position: "组员",
+          position: "九代目 主管",
           name: "吕洵",
           photo: "https://workbench-static.muxixyz.com/1666787333.0614903.20220908201159.jpg",
           intro: "一键查询精神状态"
@@ -1039,7 +1039,7 @@ const info = [
           intro: "无"
         },
         {
-          position: "组员",
+          position: "九代目 组长",
           name: "李泽群",
           photo: "https://workbench-static.muxixyz.com/1665677678.1391776.srchttp___inews.gtimg.com_newsapp_bt_0_13895187735_1000referhttp___inews.gtimg.webp",
           intro: "举世罕见的摆子"
