@@ -16,13 +16,13 @@ const group: Array<Group> = [
   {
     name: "前端",
     intro:
-      "负责产品的界面展现以及用户交互，制作酷炫的网页特效，开发 Web 应用的 UI。",
+      "基于浏览器内核开发跨平台、跨终端的应用软件",
     learn: "HTML, CSS, JavaScript, React…",
     img: "http://static.muxixyz.com/index_site/frontend.png"
   },
   {
     name: "设计",
-    intro: "对用户体验负责，打造美且严谨的产品界面。",
+    intro: "梦想是成为美术设计大师,踏上UI设计封神之旅",
     learn: "PS, AI, XD, Sketch…",
     img: "http://static.muxixyz.com/index_site/design.png"
   },
