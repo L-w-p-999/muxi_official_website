@@ -994,6 +994,17 @@ const info = [
       ]
     },
     {
+      tag: "运营",
+      people: [
+        {
+          position: "todo",
+          name: "todo",
+          photo: "https://muxi-avatar.muxixyz.com//android/fengminchao.jpg",
+          intro: "todo"
+        },
+      ]
+    },
+    {
       tag: "安卓",
       people: [
         {
