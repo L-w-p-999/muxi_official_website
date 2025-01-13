@@ -1,7 +1,8 @@
 @import "../banner/banner.scss";
 @import "../../styles/base.scss";
+@import "../../styles/color.scss";
 
-$group-count: 5;
+$group-count: 6;
 $group-angle: calc(360deg / $group-count);
 $group-adapt: calc(360deg / $group-count);
 
@@ -19,7 +20,7 @@ $group-adapt: calc(360deg / $group-count);
       height: 100%;
 
       .group-left {
-        width: 32%;
+        width: 33%;
         height: 100%;
         min-width: 250px;
         display: flex;
@@ -35,18 +36,18 @@ $group-adapt: calc(360deg / $group-count);
           height: 100%;
           .group-name {
             font-size: 40px;
-            color: #f5fbdc;
+            color: txt-white;
             margin-top: 5%;
           }
           .group-intro {
             width: 100%;
             font-size: 20px;
-            color: #f5fbdc;
+            color: txt-white;
             margin-top: 5%;
             line-height: 30px;
           }
           .group-learn {
-            color: #f5fbdc;
+            color: txt-white;
             margin-top: 10%;
             font-size: 20px;
             line-height: 30px;
@@ -55,7 +56,7 @@ $group-adapt: calc(360deg / $group-count);
       }
 
       .group-controller-box {
-        width: 32%;
+        width: 34%;
         display: flex;
         // background-color: #6470f0;
         justify-content: center;
@@ -89,7 +90,7 @@ $group-adapt: calc(360deg / $group-count);
             .group-list {
               cursor: pointer;
               .group-item{
-                background-color: #f5fbdc;
+                background-color: txt-white;
                 a {
                   display: block;
                   position: absolute;
@@ -124,7 +125,7 @@ $group-adapt: calc(360deg / $group-count);
       }
 
       .group-right {
-        width: 32%;
+        width: 33%;
         height: 100%;
         min-width: 250px;
         display: flex;

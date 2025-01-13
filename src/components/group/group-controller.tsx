@@ -2,6 +2,8 @@
 import group from "./const";
 import React, { useState } from "react";
 
+const groupNum: number = 6;
+
 interface GroupControllerProps {
   selectGroup: (targetGroup: number) => void;
   initGroup: number;
@@ -12,12 +14,12 @@ function GroupController({
   selectGroup,
 }: GroupControllerProps): React.ReactElement {
   const [current, setCurrent] = useState(initGroup);
-  const [rotate, setRotate] = useState(initGroup * 72);
+  const [rotate, setRotate] = useState(initGroup * (360 / groupNum));
 
   const handleClick = (targetGroup: number) => {
     selectGroup(targetGroup);
     setCurrent(targetGroup);
-    setRotate(getNearestRotation(rotate, targetGroup * 72));
+    setRotate(getNearestRotation(rotate, targetGroup * (360 / groupNum)));
   };
 
   function getNearestRotation(currentAngle: number, targetAngle: number) {
@@ -49,7 +51,7 @@ function GroupController({
               //动画时间
               transitionDuration: ".8s",
               // 转动角度
-              transform: `rotate(${rotate}deg)rotateY(${rotate * 5}deg)`,
+              transform: `rotate(${rotate}deg)rotateY(${rotate * groupNum}deg)`,
             }}
           >
             <div className="circle-menu-dot"></div>
