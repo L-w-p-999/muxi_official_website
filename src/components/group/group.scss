@@ -31,16 +31,16 @@ $group-adapt: calc(360deg / $group-count);
       height: 100%;
       width: 100%;
       grid-template-areas: 
+        "controller"
         "right"
-        "left"
-        "controller";
+        "left";
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 1fr 1fr;
       //md
       @media (min-width: 768px){
         grid-template-areas: 
-          "left right"
-          "controller controller";
+          "controller controller"
+          "left right";
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
       }
