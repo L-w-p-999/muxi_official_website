@@ -10,14 +10,14 @@ export default function Join() {
     <div>
         <Petal />
         <div className="join-web">
-          <div className="background-img">
+          <div className="background-img-container">
             <img
               src="http://static.muxixyz.com/index_site/join2.png"
               className="background-star"
             />
           </div>
 
-          <div className="background-button">
+          <div className="background-button-container">
             <img
               src="http://static.muxixyz.com/index_site/join_button.png"
               className="background-button-inner"
