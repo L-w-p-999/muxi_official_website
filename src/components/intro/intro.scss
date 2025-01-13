@@ -15,14 +15,20 @@ img {
 //  cards
 .intro-card-father {
   flex-wrap: wrap;
-  margin: 20px 30px;
-  min-width: calc(180 / 1280) * 100vw;
+  margin: 10px 15px;
+  @media (min-width: 768px) {
+    margin: 15px 20px;
+  }
+  @media (min-width: 1024px) {
+    margin: 20px 30px;
+  }
+  min-width: calc(170 / 1280) * 100vw;
 }
 .intro-card-father:hover .intro-content {
   @include transingle(rotateY(0deg));
 }
 .intro-card {
-  max-width: calc(180 / 1280) * 100vw;
+  max-width: calc(170 / 1280) * 100vw;
   min-width: 150px;
   min-height: calc(190 / 700) * 100vh;
   background-color: $introCard-grey;
@@ -92,7 +98,7 @@ img {
   width: 41.7%;
   height: 23.4%;
   background-color: rgb(253, 172, 31);
-  color: white;
+  color: $txt-white;
   border-radius: 135px;
   margin: 8% auto;
   font-size: 16px;
@@ -126,12 +132,24 @@ li {
   line-height: calc(70 / 700) * 100vh;
 }
 li > a {
-  font-size: 20px;
+  font-size: 15px;
+  @media (min-width: 768px) {
+    font-size: 20px;
+  }
+  @media (min-width: 1024px) {
+    font-size: 20px;
+  }
   cursor: pointer;
 }
 li > .onTag {
   font-weight: 600;
-  font-size: 25px;
+  font-size: 20px;
+  @media (min-width: 768px) {
+    font-size: 25px;
+  }
+  @media (min-width: 1024px) {
+    font-size: 25px;
+  }
   color: rgb(250, 174, 28);
   text-shadow: 2px 2px 6px rgb(250, 174, 28), -1px -1px #fff, 1px -1px #444;
 }
@@ -139,7 +157,7 @@ li > .onTag {
 //intro.tsx
 .intro-card-containner {
   overflow-y: scroll;
-  overflow-x: hidden;
+  overflow-x: clip;
   display: flex;
   justify-content: center;
   width: 100%;
