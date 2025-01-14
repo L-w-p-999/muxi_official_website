@@ -52,7 +52,6 @@ const Banner:React.FC = ()=>{
           update={updateItem}
           current={currentPage}
           count={countPage}
-          icon={icon}
           choose={chooseBanner}
         />
       </div>

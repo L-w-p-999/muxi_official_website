@@ -5,14 +5,13 @@ import config from './const.js';
 interface childProps{
     count:number;
     update:Function;
-    icon:string;
     choose:Function;
     current:number;
 }
 
 const BannerController:React.FC<childProps>=(props)=>{
     //解构赋值，父子组件通信传值
-    const {count,update,icon,choose}=props;
+    const {count,update,choose}=props;
 
     const [current,setCurrent]=useState(props.current);
     const [items,setItems]=useState(null);
@@ -29,12 +28,20 @@ const BannerController:React.FC<childProps>=(props)=>{
     
     const switchLeft = ()=>{
         update(-1);
+        if(current!==0){
+          setCurrent(current-1);
+        }
+        
     }
     const switchRight = ()=>{
         update(1);
+        if(current!==config.length-1){
+          setCurrent(current+1);
+        }
     }
     const chooseProduct = (i:any) => {
         choose(i);
+        setCurrent(i);
     }
     
     let class1 = "products-item products-center";
@@ -73,8 +80,9 @@ const BannerController:React.FC<childProps>=(props)=>{
         <div className="products-camera-containner">
           <div className="products-camera"> </div>
           <div
+          //
             className="prodcuts-icon"
-            style={{ backgroundImage: `url(${icon})` }}
+            style={{ backgroundImage: `url(${config[current].icon})` }}
           />
         </div>
       </div>
