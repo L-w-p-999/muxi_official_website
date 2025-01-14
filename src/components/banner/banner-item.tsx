@@ -38,15 +38,15 @@ const BannerItem:React.FC<childProps> = (props)=>{
         
         <div className="products-intro" style={{ width: width }}>
         <div className="products-content products-on">
-          <div className="products-left">
-            <div className="products-left-content">
+          <div className="products-introduction">
+            <div className="products-introduction-content">
               <h1>{product}</h1>
 
               <div className="products-des">
                 <div className="products-des-icon" />
                 <span className="products-des-txt">{type}</span>
               </div>
-              <div>{intro}</div>
+              <div className='products-description'>{intro}</div>
               <button className="products-btn" onClick={_link.bind(this)}>
                 {key1 == 0 ? "下载地址" : "进入链接"}
               </button>
@@ -54,7 +54,7 @@ const BannerItem:React.FC<childProps> = (props)=>{
           </div>
 
           <div
-            className="products-right"
+            className="products-img"
             style={{ backgroundImage: `url(${img})` }}
           />
         </div>
