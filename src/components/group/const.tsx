@@ -37,6 +37,12 @@ const group: Array<Group> = [
     intro: "头脑风暴 get 点子，协调开发与设计。从 0 到 1 制作产品。",
     learn: "需求分析, 用户调研, 制作产品原型图…",
     img: "http://static.muxixyz.com/index_site/product.png"
+  },
+  {
+    name: "运营",
+    intro: "todo",
+    learn: "todo",
+    img: "http://static.muxixyz.com/index_site/product.png"
   }
 ];
 

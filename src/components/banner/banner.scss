@@ -3,13 +3,17 @@
 $btn-width: 100px;
 $btn-height: 40px;
 $linear-border-width: 4px;
+
+// todo:controller—btn 和 products-btn 之间要有一定的距离，防止用户误触 
+
+//banner
 .products-wrap {
   width: 100%;
   height: 64%;
   overflow: hidden;
 }
 .products-banner {
-  height: 461.81px;//原来是100%
+  height: 650px;//原来是100%
   position: relative;
 }
 .products-intro {
@@ -20,36 +24,54 @@ $linear-border-width: 4px;
 .products-content {
   width: 100%;
   height: 100%;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin: 3vh auto;
+  @media (min-width: 768px) {
+    margin: 5vh auto;
+    flex-direction: row;
+  }
+  justify-content: center;
+  align-items: center;
+
   font-size: 0;
   //position: absolute;
-  top: 0px;
 }
-.products-left {
-  display: inline-block;
-  width: 60%;
+.products-introduction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: -80px 40px;
+  @media (min-width: 768px) {
+    width: 40%;
+  }
+  height: 100%;
   vertical-align: middle;
   box-sizing: border-box;
-  .products-left-content {
-    width: 300px;
-    margin: 0 auto;
+  .products-introduction-content {
+    width: 100%;
     font-size: 20px;
     line-height: 40px;
     .products-des {
       margin-top: -30px;
       margin-bottom: 10px;
-      .products-des-tag {
-        width: 30px;
-        height: 30px;
-        vertical-align: middle;
+      .products-des-icon {
+        position: relative;
+        top: 30px;
+        width: 21px;
+        height: 20px;
+        background-image: url("http://static.muxixyz.com/index_site/icon_IOS.png");
       }
       .products-des-txt {
-        margin-left: calc(30 / 1280) * 100vw;
         vertical-align: middle;
-        color: #f8b01a;
+        color: $txt-yellow-color;
         font-size: 16px;
         font-weight: bold;
       }
+    }
+    .products-description{
+      width: 95%;
     }
     .products-btn {
       margin-top: 30px;
@@ -57,7 +79,7 @@ $linear-border-width: 4px;
       height: $btn-height;
       box-sizing: border-box;
       font-size: 16px;
-      color: $txt-color;
+      color: $txt-white;
       background-color: transparent;
       border-style: none;
       position: relative;
@@ -93,13 +115,22 @@ $linear-border-width: 4px;
     }
   }
 }
-.products-des-icon {
-  position: relative;
-  top: 30px;
-  width: 21px;
-  height: 20px;
-  background-image: url("http://static.muxixyz.com/index_site/icon_IOS.png");
+.products-img {
+  vertical-align: middle;
+  // display: inline-block;
+  margin-top: 5%;
+  min-width: 300px;
+  max-width: 30%;
+  height: 80%;
+  //	background-image: url('../../../static/image/ccnubox.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  //background-size: 80%;
 }
+
+
+//camera
 .products-camera-containner {
   width: 100%;
   height: 126px;
@@ -111,8 +142,8 @@ $linear-border-width: 4px;
   //transform: translateX(-50%) translateY(60%);
   height: 31px;
   width: 80px;
-  background-color: #152025;
-  border: 1px solid rgb(187, 158, 13);
+  background-color: $products-camera-black-900;
+  border: 1px solid #e3bd07;
 }
 .products-camera-bgr-inner {
   //position: relative;
@@ -121,8 +152,8 @@ $linear-border-width: 4px;
   //transform: translateX(-50%) translateY(-1px);
   height: 100%;
   width: 60px;
-  background-color: #152025;
-  border: 1px solid #152025;
+  background-color: $products-camera-black-900;
+  border: 1px solid $products-camera-black-900;
 }
 .products-camera-bgr-inner2 {
   margin-top: -32%;
@@ -132,8 +163,8 @@ $linear-border-width: 4px;
   //vertical-align: middle;
   height: 15px;
   width: 80px;
-  background-color: #152025;
-  border: 1px solid #152025;
+  background-color: $products-camera-black-900;
+  border: 1px solid $products-camera-black-900;
 }
 .products-camera {
   @include transfxy(10%, -119px);
@@ -155,31 +186,28 @@ $linear-border-width: 4px;
   margin: 0 auto;
   //background-image:url('../../../static/image/icon_xiazi.png');
 }
-.products-right {
-  vertical-align: middle;
-  display: inline-block;
-  margin-top: 5%;
-  width: 30%;
-  height: 80%;
-  //	background-image: url('../../../static/image/ccnubox.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  //background-size: 80%;
-}
 
+
+
+//controller
 .products-bottom {
   position: absolute;
-  bottom: 80px;
+  bottom: 50px;
+  @media (min-width: 768px) {
+    bottom: 80px;
+  }
+  right: 0;
   width: 100%;
   height: 70px;
+  justify-content: center;
   background-color: $banner-controller;
   .products-controller {
-    width: 980px;
+    width: 100%;
     margin: 0 auto;
     font-size: 0;
     display: flex;
     align-items: center;
+
     .controller-btn {
       cursor: pointer;
       width: 0;
@@ -189,10 +217,10 @@ $linear-border-width: 4px;
       border-color: transparent;
     }
     .btn-left {
-      border-right-color: #e1ddd6;
+      border-right-color: $btn-white;
     }
     .btn-right {
-      border-left-color: #e1ddd6;
+      border-left-color: $btn-white;
     }
     .products-cnt-text {
       flex: 1;
@@ -221,6 +249,9 @@ $linear-border-width: 4px;
     }
   }
 }
+
+
+
 
 .left-active {
   @include anim(left-active, 1s, ease-in-out, 0s, forwards);

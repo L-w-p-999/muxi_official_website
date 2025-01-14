@@ -1,10 +1,9 @@
 import { useState } from "react";
 import group from "./const";
 import { CSSTransition } from "react-transition-group";
-import GroupItem from "./group-item";
 import GroupController from "./group-controller";
 import Flower from "../flower/flower";
-import "./index.scss";
+import "./group.scss";
 
 function Group() {
   const [store, setStore] = useState(0);
