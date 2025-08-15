@@ -7,7 +7,7 @@ import MemberIntro from "../pages/member";
 
 const routes = [
     {
-        path:"",
+        path:"/",
         element:<First/>
     },
     {
@@ -25,10 +25,6 @@ const routes = [
     {
         path:"/join",
         element:<JoinUs/>
-    },
-    {
-        path:"/",
-        element:<Navigate to=""/>
     }
 ]
 
