@@ -260,7 +260,50 @@ const info = [
           name:"孙俊楠",
           photo:"https://muxi-avatar.muxixyz.com/backend%3Asunjunnan.jpg",
           intro:"前端转前台，后端转后厨。我们都有光明的未来"
-        }
+        },
+          {
+    position: "组员",
+    name: "姜睿豪",
+    photo: "https://muxi-avatar.muxixyz.com//backend/jiangruihao.png",
+    intro: "庭中三千梨花树，再无一朵入我心."
+  },
+  {
+    position: "组员",
+    name: "陈启昊",
+    photo: "https://muxi-avatar.muxixyz.com//backend/chenqihao.jpeg",
+    intro: "所累哇多卡纳"
+  },
+  {
+    position: "组员",
+    name: "熊海威",
+    photo: "https://muxi-avatar.muxixyz.com//backend/xionghaiwei.png",
+    intro: "♬月・火・水・木・金・土・日 ♬"
+  },
+  {
+    position: "组员",
+    name: "鲁雨博",
+    photo: "https://muxi-avatar.muxixyz.com//backend/luyubo.png",
+    intro: "♬毎日が coding day♬"
+  },
+  {
+    position: "组员",
+    name: "刘学彬",
+    photo: "https://muxi-avatar.muxixyz.com//backend/liuxuebin.jpeg",
+    intro: "摸鱼，是一种学问"
+  },
+  {
+    position: "组员",
+    name: "李雨妍",
+    photo: "https://muxi-avatar.muxixyz.com//backend/liyuyan.JPG",
+    intro: "Hi."
+  },
+  {
+    position: "组员",
+    name: "许超",
+    photo: "https://muxi-avatar.muxixyz.com//backend/xuchao.jpg",
+    intro: "求不睡觉就能睡觉的方法：）\n雨季不在来"
+  }
+
       ]
     },
     {
@@ -518,6 +561,36 @@ const info = [
           photo: "https://muxi-avatar.muxixyz.com/frontend%3Azhangbingyan.png",
           intro: "每天睡前祈祷明天没有小组作业"
         },
+         {
+    position: "组员",
+    name: "张颢严",
+    photo: "https://muxi-avatar.muxixyz.com//frontend/zhanghaoyan.jpg",
+    intro: "拉拉，可是能成为我母亲的女人啊！"
+  },
+  {
+    position: "组员",
+    name: "李炜鹏",
+    photo: "https://muxi-avatar.muxixyz.com//frontend/liweipeng.png",
+    intro: "掌握平衡，受益终生"
+  },
+  {
+    position: "组员",
+    name: "涂宇恒",
+    photo: "https://muxi-avatar.muxixyz.com//frontend/tuyuheng.jpg",
+    intro: "苍穹不负少年意，星光不枉赶路人"
+  },
+  {
+    position: "组员",
+    name: "余诗蕊",
+    photo: "https://muxi-avatar.muxixyz.com//frontend/yushirui.jpeg",
+    intro: "宇宙第一美刁蛮小公主"
+  },
+  {
+    position: "组员",
+    name: "刘星宇",
+    photo: "https://muxi-avatar.muxixyz.com//frontend/liuxingyu.jpg",
+    intro: "这个人很懒，只想把你留下"
+  }
       ]
     },
     {
@@ -794,6 +867,48 @@ const info = [
           intro: "正在努力向技术栈进发",
           photo: "https://muxi-avatar.muxixyz.com/design%3Azhaoyuxuan.jpg"
         },
+        {
+    position: "组员",
+    name: "魏楚稀",
+    photo: "https://muxi-avatar.muxixyz.com//design/weichuxi.jpg",
+    intro: "祝大家万事胜意 前程似锦"
+  },
+  {
+    position: "组员",
+    name: "吴梦晗",
+    photo: "https://muxi-avatar.muxixyz.com//design/wumenghan.jpg",
+    intro: "被蚊子搬走了"
+  },
+  {
+    position: "组员",
+    name: "张景昕",
+    photo: "https://muxi-avatar.muxixyz.com//design/zhangjingxin.jpg",
+    intro: "🧸"
+  },
+  {
+    position: "组员",
+    name: "董英帆",
+    photo: "https://muxi-avatar.muxixyz.com//design/dongyingfan.png",
+    intro: "都是同龄人我原本没想降维打击"
+  },
+  {
+    position: "组员",
+    name: "殷佳怡",
+    photo: "https://muxi-avatar.muxixyz.com//design/yinjiayi.jpeg",
+    intro: "安静 你的同胞正在做中国梦"
+  },
+  {
+    position: "组员",
+    name: "刘媛",
+    photo: "https://muxi-avatar.muxixyz.com//design/liuyuan.jpg",
+    intro: "刘媛只值六元"
+  },
+  {
+    position: "组员",
+    name: "何露",
+    photo: "https://muxi-avatar.muxixyz.com//design/helu.jpg",
+    intro: "孩子们，我坠机了。"
+  }
       ]
     },
     {
@@ -991,18 +1106,67 @@ const info = [
           photo: "https://muxi-avatar.muxixyz.com/product%3Axuyuehong.jpg",
           intro: "“幸福的生活，就是每天有事做，有人爱，有期待。”"
         },
+         {
+    position: "组员",
+    name: "吴静",
+    photo: "https://muxi-avatar.muxixyz.com//product/wujing.jpg",
+    intro: "暴富…"
+  },
+  {
+    position: "组员",
+    name: "孙萧媛",
+    photo: "https://muxi-avatar.muxixyz.com//product/sunxiaoyuan.png",
+    intro: "在琐琐碎碎中发现世界"
+  },
+  {
+    position: "组员",
+    name: "杨景凡",
+    photo: "https://muxi-avatar.muxixyz.com//product/yangjingfan.jpg",
+    intro: "୧( ૢ⁼̴ ꇴ ⁼̴)当你在看我的时候，我也在看你～"
+  },
+  {
+    position: "组员",
+    name: "王颖桢",
+    photo: "https://muxi-avatar.muxixyz.com//product/wangyingzhen.jpeg",
+    intro: "船到桥头自然直"
+  },
+  {
+    position: "组员",
+    name: "朱田宇",
+    photo: "https://muxi-avatar.muxixyz.com//product/zhutianyu.jpg",
+    intro: "我蛮夷也。"
+  },
+  {
+    position: "组员",
+    name: "王韦臻",
+    photo: "https://muxi-avatar.muxixyz.com//product/wangweizhen.JPG",
+    intro: "向往退休了…"
+  },
+  {
+    position: "组员",
+    name: "李运韬",
+    photo: "https://muxi-avatar.muxixyz.com//product/liyuntao.jpg",
+    intro: "技术宅引爆产品市场！"
+  }
+         
       ]
     },
     {
       tag: "运营",
       people: [
-        {
-          position: "todo",
-          name: "todo",
-          photo: "https://muxi-avatar.muxixyz.com//android/fengminchao.jpg",
-          intro: "todo"
-        },
-      ]
+  {
+    position: "组员",
+    name: "张丽彬",
+    photo: "https://muxi-avatar.muxixyz.com//operation/zhanglibin.png",
+    intro: "事已至此，先吃饭吧"
+  },
+  {
+    position: "组员",
+    name: "薛淼",
+    photo: "https://muxi-avatar.muxixyz.com//operation/xuemiao.png",
+    intro: "人生哪，能不能放过我这一次～"
+  }
+]
     },
     {
       tag: "安卓",
