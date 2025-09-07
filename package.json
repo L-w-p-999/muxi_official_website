@@ -1,28 +1,32 @@
 {
-  "name": "muxi_project",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "@types/node": "^22.10.5",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "6",
-    "react-transition-group": "^4.4.5",
-    "sass": "^1.54.0",
-    "scss": "^0.2.4"
-  },
-  "devDependencies": {
-    "@types/react": "^18.0.15",
-    "@types/react-dom": "^18.0.6",
-    "@types/react-transition-group": "^4.4.5",
-    "@vitejs/plugin-react": "^2.0.0",
-    "typescript": "^4.6.4",
-    "vite": "^3.0.0"
-  }
+	"name": "muxi_project",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview",
+		"format": "exec biome format --write",
+		"prepare": "husky"
+	},
+	"dependencies": {
+		"@types/node": "^22.10.5",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-router-dom": "6",
+		"react-transition-group": "^4.4.5",
+		"sass": "^1.54.0",
+		"scss": "^0.2.4"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.2.3",
+		"@types/react": "^18.0.15",
+		"@types/react-dom": "^18.0.6",
+		"@types/react-transition-group": "^4.4.5",
+		"@vitejs/plugin-react": "^2.0.0",
+		"husky": "^9.1.7",
+		"typescript": "^4.6.4",
+		"vite": "^3.0.0"
+	}
 }
