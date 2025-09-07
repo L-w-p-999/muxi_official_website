@@ -267,7 +267,7 @@ const info = [
 				intro: "后端擦玻璃的",
 			},
 			{
-				position: "组员",
+				position: "十代目 主管 组长",
 				name: "孙俊楠",
 				photo: "https://muxi-avatar.muxixyz.com/backend%3Asunjunnan.jpg",
 				intro: "前端转前台，后端转后厨。我们都有光明的未来",
@@ -562,7 +562,7 @@ const info = [
 				intro: "华师GGBond",
 			},
 			{
-				position: "组员",
+				position: "十代目 主管 组长",
 				name: "单禹嘉",
 				photo: "https://muxi-avatar.muxixyz.com/frontend%3Ashanyujia.jpg",
 				intro: "繁花似锦寻安宁 淡水流云渡此生",
@@ -867,7 +867,7 @@ const info = [
 				photo: "https://muxi-avatar.muxixyz.com/design%3Alichanglong.jpg",
 			},
 			{
-				position: "组员",
+				position: "十代目 组长",
 				name: "刘翠蝶",
 				intro: "努力成为好设计ing～",
 				photo: "https://muxi-avatar.muxixyz.com/design%3Aliucuidie.jpg",
@@ -1141,7 +1141,7 @@ const info = [
 				intro: "学习做出一款好产品",
 			},
 			{
-				position: "组员",
+				position: "十代目 组长",
 				name: "许月红",
 				photo: "https://muxi-avatar.muxixyz.com/product%3Axuyuehong.jpg",
 				intro: "“幸福的生活，就是每天有事做，有人爱，有期待。”",
